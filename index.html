@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+        <title>
+            Project C78
+        </title>
+        <body>
+            <h1>Family Book</h1>
+            <hr> <hr>
+            <img id="family_img" src="download.jpg"
+            <h3 id="one">1.  Our Family Book </h3>
+           <button type="button" onclick="family()">Next</button> 
+           <hr>
+           <script>
+               var names=[
+                   "2. My Dad (Tom Moore)",
+                   "3. My Mom (Jamie Rotman)",
+                   "4. My Dog (Paris)",
+                   "5. Me (Sarah Rotman-Moore",
+               ];
+                
+                var images=[
+                    "dad.jpg",
+                    "mom.jpg",
+                    "paris.jpg",
+                    "sarah at first demo practice F.jpg"
+           ];
+
+           var i=0
+           function family(){
+               document.getElementById("one").innerHTML[i];
+               document.getElementById("download.jpg").src=images[i];
+               i++;
+               if(i==4){
+                   i=0
+               }
+
+
+
+           </script>
+        
+    <body>
+        <center style="margin-top: 40px;">
+            <h1>
+                My Family Book
+            </h1>
+
+            <img src="https://i.postimg.cc/MKdhy06Z/family.jpg" id="family_member_image" width="150px" height="200px">
+            <h4 id="family_member_name"></h4>
+            
+           <!-- Debug the above code to create a button with onclick functionality as given below-->
+            <!-- <button onclick="update();">Next</button>  -->
+          
+        </center>
+
+        <script src="main.js"></script>
+    </body>
+</body>
+</html>
